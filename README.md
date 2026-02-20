@@ -5,7 +5,7 @@ Technical task
 using namespace std;
 
 /* =========================
-   1) Interface
+    Interface
 ========================= */
 class INotificationChannel {
 public:
@@ -61,7 +61,7 @@ public:
 };
 
 /* =========================
-   4) User Preferences
+    User Preferences
 ========================= */
 
 class UserPreferences {
@@ -78,7 +78,7 @@ public:
 };
 
 /* =========================
-   5) Notification Manager
+   Notification Manager
 ========================= */
 
 class NotificationManager {
@@ -127,7 +127,7 @@ int main() {
     cout << "Enter notification message: ";
     getline(cin, message);
 
-    // مثال: المستخدم عايز Email و Push بس
+    
     UserPreferences user(true, false, true);
 
     NotificationManager manager;
